@@ -1,6 +1,4 @@
-// pages/news.js
 import React from 'react';
-
 
 export async function getServerSideProps() {
   const articles = [
@@ -14,11 +12,11 @@ export async function getServerSideProps() {
 
 export default function News({ articles }) {
   return (
-    <div style={{ padding: "20px" }}>
-      <h1>Server-Side Rendered News</h1>
-      <ul>
+    <div className="news-container">
+      <h1 className="news-title">Server-Side Rendered News</h1>
+      <ul className="news-list">
         {articles.map((a) => (
-          <li key={a.id}>
+          <li key={a.id} className="news-item">
             <strong>{a.title}</strong> — <em>{a.date}</em>
           </li>
         ))}

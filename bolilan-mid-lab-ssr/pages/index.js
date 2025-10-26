@@ -17,7 +17,7 @@ export default function Home() {
       }}
     >
       <h1 style={{ fontSize: "2.5rem", marginBottom: "10px" }}>
-         BOLILAN MID LAB SSR
+        Welcome to BOLILAN MID LAB SSR
       </h1>
       <p style={{ fontSize: "1.2rem", marginBottom: "40px" }}>
         A demo of <strong>Server-Side Rendering (SSR)</strong> and{" "}
@@ -38,7 +38,7 @@ export default function Home() {
               fontWeight: "bold",
             }}
           >
-             View News (SSR)
+            📰 View News (SSR)
           </button>
         </Link>
 
@@ -55,7 +55,7 @@ export default function Home() {
               fontWeight: "bold",
             }}
           >
-             About (SSG)
+            👥 About Us (SSG)
           </button>
         </Link>
       </div>
